@@ -42,14 +42,14 @@ Check the `target` direcotry.
 
 ### Run
 
-Execute the solution with tne following command
+Execute the solution.
 
 After the start-up please input the number of producers and consumers. The numbers should be between 1 to 10.
 
-Iterruption `Ctrl+C` of the process will gracefully shut down the process.
+Iterruption (`Ctrl+C`) of the process will gracefully shut down the process.
 It will stop producers and wait till consumers complete their jobs.
 
 ### Output
 
 The solution prints current number of elements of data queue each second.
-It also generates output file ```data.txt``` which contains the values of consumed element.
+It also generates output file `data.txt` which contains the values of consumed element.
